@@ -1,3 +1,3 @@
 # RegistrAppWeb
-npm install qrcode
-npm i --save-dev @types/qrcode
+.-npm install qrcode
+.-npm i --save-dev @types/qrcode
