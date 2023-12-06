@@ -6,9 +6,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MobileViewComponent } from './components/mobile-view/mobile-view.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,MobileViewComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
