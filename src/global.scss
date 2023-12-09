@@ -24,3 +24,23 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.description {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.bg-duoc {
+  background-color: white;
+  overflow-y: auto;
+  max-height: 100vh;
+
+}
+
+.text-duoc {
+  color: goldenrod;
+}
+
+body{
+    background-color: white;
+}
